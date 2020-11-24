@@ -1,0 +1,94 @@
+/* Colors and fonts */
+body{
+	background-image: url(https://archzine.fr/wp-content/uploads/2018/07/bouquet-de-rose-ouverte-pe%CC%81tales-feuilles-e%CC%81le%CC%81ments-dessin-facile-a%CC%80-faire-croquis-rose-au-crayon-dessin-blanc-et-noir-facile.jpg);
+	font-family: 'Rokkitt', serif;
+	font-size: 18px;
+	text-align: center;
+}
+h1, h2{
+	font-family: 'Amatic SC', cursive
+}
+h1{
+	font-size: 32px;
+	font-weight: 900;
+}
+h2{
+	font-size: 26px;
+}
+a{
+	font-family: 'Amatic SC', cursive;
+	text-decoration: none;	
+}
+a:hover{ 
+	color: #ff2e63
+}
+
+@media (max-width:760px){
+	.container{
+		width: 600px
+	}
+}
+
+@media (max-width:500px){
+	.container{
+		width: 400px
+	}
+}
+
+/* Custom design with class */
+.container {
+	width: 700px ; 
+	margin: 20px auto;
+}
+
+.card-grey {
+	background-color:#EEEEEE ;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 40px 0px;
+
+}
+.btn-color {
+	background-color:#0199C3 ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4%;
+}
+
+.btn-color:hover {
+	background-color: #ff2e63 ;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color:#0199C3 ;
+	opacity: 0.5;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color:#ff2e63 ;
+	opacity: 1;
+}
+#intro img {
+	margin-bottom: 25px;
+}
+
+.image-small{
+	width:200px;
+	border-radius: 2%;
+}
+
+#emlv-small{
+	border-radius: 50px;
+	width: 100px;
+}
